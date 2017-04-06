@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					2B737E071E89236F0057EB87 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SBHE4739Y2;
 						ProvisioningStyle = Automatic;
 					};
 					2B737E1E1E8923700057EB87 = {
@@ -414,11 +415,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SBHE4739Y2;
 				INFOPLIST_FILE = caculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edward.caculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -426,11 +431,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SBHE4739Y2;
 				INFOPLIST_FILE = caculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edward.caculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +516,7 @@
 				2B737E351E8923700057EB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B737E361E8923700057EB87 /* Build configuration list for PBXNativeTarget "caculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				2B737E381E8923700057EB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B737E391E8923700057EB87 /* Build configuration list for PBXNativeTarget "caculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				2B737E3B1E8923700057EB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
